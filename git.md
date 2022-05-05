@@ -1,4 +1,7 @@
 
+### gitの基本設定
+git config --global user.name {sohdacafe}
+git config --global user.email {sohdacafe@gmail.com}
 
 
 ### ローカルリポジトリとして初期化
