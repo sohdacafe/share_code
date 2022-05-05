@@ -23,6 +23,15 @@ git push -u origin main
   git remote add origin https://github.com/{sohdacafe}/{share_code}.git
 
 
-  
-* 
 
+### GitHub実行コマンド
+* ローカルリポジトリとGitHubのリモートリポジトリを紐づける作業
+git remote add origin https://github.com/{ユーザー名}/{リポジトリ名}.git
+* リモートリポジトリに紐づいたかの確認
+git remote -v
+以下が出力されればOK
+origin  https://github.com/{ユーザー名}/{リポジトリ名}.git (fetch)
+origin  https://github.com/{ユーザー名}/{リポジトリ名}.git (push) 
+* リモートリポジトリにプッシュ
+git branch -M main
+git push -u origin main
